@@ -8,8 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "prepare": "husky install",
-    "lint": "prettier src --check",
-    "lint:eslint": "eslint src --ext .tsx,.ts"
+    "lint:eslint": "eslint src --ext .tsx,.ts",
+    "lint:prettier": "prettier src --check",
+    "lint": "npm-run-all -p lint:**"
   },
   "dependencies": {
     "expo": "~49.0.15",
@@ -26,6 +27,7 @@
     "eslint": "^8.54.0",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "3.1.0",
     "typescript": "^5.1.3"
   },
