@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
-import { Text, View } from "react-native";
-import Video from "../video/Video";
+import { FunctionComponent } from 'react';
+import { Text, View } from 'react-native';
+import Video from '../video/Video';
 
 const Gallery: FunctionComponent = () => {
   return (

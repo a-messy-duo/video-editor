@@ -1,5 +1,5 @@
-import { FunctionComponent } from "react";
-import { Text, View } from "react-native";
+import { FunctionComponent } from 'react';
+import { Text, View } from 'react-native';
 
 type VideoProps = {
   id: number;

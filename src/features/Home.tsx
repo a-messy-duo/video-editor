@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
-import { Text, View } from "react-native";
-import Gallery from "./gallery/Gallery";
+import { FunctionComponent } from 'react';
+import { Text, View } from 'react-native';
+import Gallery from './gallery/Gallery';
 
 const Home: FunctionComponent = () => {
   return (
