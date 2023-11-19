@@ -1,8 +1,13 @@
 import { FunctionComponent } from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
+import styles from './editVideo.scss';
 
 const EditVideo: FunctionComponent = () => {
-  return <View>Edit Video</View>;
+  return (
+    <View style={styles.container}>
+      <Text>Edit Video</Text>
+    </View>
+  );
 };
 
 export default EditVideo;
