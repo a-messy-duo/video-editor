@@ -14,7 +14,7 @@ const Gallery: FunctionComponent = () => {
     console.log(result);
     setOpenPicker(false);
     if (!result.assets || !result.assets[0].uri) return;
-    navigation.navigate('Edit');
+    navigation.navigate('Edit', { videoUri: result.assets[0].uri });
   };
 
   return (
