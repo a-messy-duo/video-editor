@@ -11,7 +11,6 @@ const Gallery: FunctionComponent = () => {
 
   const handleVideoPickerResult = (result: imagePicker.ImagePickerResult) => {
     // TODO: result 값을 활용해 편집 시도
-    console.log(result);
     setOpenPicker(false);
     if (!result.assets || !result.assets[0].uri) return;
     navigation.navigate('Edit', { videoUri: result.assets[0].uri });
